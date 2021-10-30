@@ -9,3 +9,11 @@ Voici un [tutoriel de quoi en faire avec ce csv](https://support.google.com/cale
 Puis pour iCalendar il faut executer d'abord le premier script edt3il.py qui crée un fichier .csv puis le deuxieme script exportICS qui crée le .ics a importer (ça j'ai pas essayé mais vous devez trouver des tutos en ligne).
 
 Là c'est très brut, le code est un peu mauvais et la manière pas correcte mais le code fait son taf et exporte bien l'EDT ^-^
+
+Il faut Python 3 et il faut installer par [pip](https://pypi.org/project/pip/)
+- numpy
+- csv
+- re
+- datetime
+- BeautifulSoup 4
+- csv-ical
