@@ -15,7 +15,9 @@ import exportICS
 
 #Création du lien en fonction du groupe I2
 lienBase = "https://eleves.groupe3il.fr/edt_eleves/00_index.php?idGroupe="
-groupe=input("C'est quoi ton groupe (1, 2, 3, 4, 5+FA, 6+FA)?")
+groupe=input("C'est quoi ton groupe (1, 2, 3, 4, 5+FA, 6+FA) ou autre?: ")
+if groupe.upper()=="AUTRE":
+    groupe=input("Met le lien de l'EDT à exporter sous le format \nhttps://eleves.groupe3il.fr/edt_eleves/00_index.php?idGroupe=ERIS1+Groupe+1+FE.xml qui correspond a ton groupe ")
 url=lienBase+"I2+Groupe+"+groupe+".xml"
 
 #Récuperation du lien et parsing html
