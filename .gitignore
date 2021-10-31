@@ -1,0 +1,4 @@
+# ignore the results of the thing
+*.csv
+*.ics
+__pycache__
