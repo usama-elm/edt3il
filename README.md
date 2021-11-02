@@ -11,6 +11,8 @@ Voici un [tutoriel de quoi en faire avec ce csv pour Google Calendar](https://su
 Si vous avez des problèmes ou autre n'hesitez pas à ouvrir un ticket.
 
 Il faut Python 3 et il faut installer par [pip](https://pypi.org/project/pip/)
+Si pip ou la commande Python ne marche pas sur Windows, [il faut ajouter Python au PATH](https://technochouette.istocks.club/comment-ajouter-python-a-la-variable-windows-path-wiki-utile/2020-10-14/)
+Les dependances python:
 - numpy
 - csv
 - re
@@ -18,4 +20,5 @@ Il faut Python 3 et il faut installer par [pip](https://pypi.org/project/pip/)
 - BeautifulSoup 4
 - csv-ical
 
-`pip install numpy csv re datetime beautifulsoup4 csv-ical`
+La commande pour installer les dependances:
+`pip install numpy regex datetime beautifulsoup4 csv-ical`
