@@ -106,8 +106,10 @@ for i in range(len(edtTraite)):
 temp = []
 mot= ""
 for i in range(len(edtTraite)):
-    if "2021" not in edtTraite[i][1]:
+    if "2021" not in edtTraite[i][1] and "/12" in edtTraite[i][1]:
         edtTraite[i][1]=edtTraite[i][1]+"/2021" #On ajoute l'année la ou elle est pas
+    elif "2022" not in edtTraite[i][1] and "/01" in edtTraite[i][1]:
+        edtTraite[i][1]=edtTraite[i][1]+"/2022"
     temp=re.split("[ |-]+", edtTraite[i][4]) #On split utilisant REGEX
     if len(temp)>2: 
         for j in range(len(temp)-2):
