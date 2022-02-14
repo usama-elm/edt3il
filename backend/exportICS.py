@@ -1,10 +1,10 @@
 from datetime import datetime, timedelta
 from csv_ical import Convert
 
-def importerICS():
+def importerICS(name=''):
     convert = Convert()
-    csv_file_location = 'export.csv'
-    ical_file_location = 'export.ics'
+    csv_file_location = 'exports/'+name+'Export.csv'
+    ical_file_location = 'exports/'+name+'Export.ics'
     csv_configs = {
         'HEADER_ROWS_TO_SKIP': 1,
         'CSV_NAME': 0,
