@@ -14,7 +14,7 @@ import requests
 import exportICS
 
 #Création du lien en fonction du groupe I2
-lienbase = "https://eleves.groupe3il.fr/edt_eleves/00_index.php?idGroupe=I2+Groupe"
+lienbase = "https://eleves.groupe3il.fr/edt_eleves/00_index.php?idGroupe=I2+Groupe+"
 liens=[lienbase+"1.xml", lienbase+"2.xml",lienbase+"3.xml",lienbase+"5+FA.xml",lienbase+"6+FA.xml"]
 names=["I2G1","I2G2","I2G3","I2G5FA","I2G6FA"]
 def exportCalendrier(url, name=''):
