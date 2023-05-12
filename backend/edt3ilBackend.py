@@ -2,7 +2,7 @@
 ##                  NECESSARY DEPENDANCIES                          ##
 ##                  OR ELSE IT WONT                                 ##
 ##                  WORK                                            ##
-##                  @kaiser-mousu IN GITHUB                         ##
+##                  @usama-elm IN GITHUB                            ##
 ######################################################################
 from bs4 import BeautifulSoup
 import numpy as np
